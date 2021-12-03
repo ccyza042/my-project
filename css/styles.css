@@ -1,0 +1,242 @@
+.container-fluid{ 
+    background-image: url(../images/istockphoto.jpg);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-size: cover;
+    padding-left: 40%;
+    padding-right: 40%;
+
+
+}
+form{
+    background-color: white;
+    padding: 5% 10%;
+    width: 70%;
+    border-radius: 10px 10px 0 0;
+}
+.first{
+    color: white;
+    width: 400px;
+    height: 400px;
+    align-content: center;
+    padding-top: 80px;
+    margin-right: 10px
+
+    
+}
+.second{
+    width: 400px;
+    height: 500px;
+    border: 1px solid white; 
+    background-color: white;
+    padding-inline-start: 3%;
+    margin-left: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    
+}
+#page{
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color:#f53e07;
+    border: hidden;
+
+}
+.name{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 90%;
+    
+}
+ #writing{
+     text-align: centre; 
+     margin-top: 0px; 
+} 
+
+
+
+    
+#middle{
+    background-color: #211363;
+    padding-top: 70px;
+    align-items: center;
+    margin-top: 70px;
+    color: white;
+    padding-bottom: 70px;
+    
+   
+
+}
+#submiddle{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#submarine{
+    /* text-align: center; */
+    background-color: orangered;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    margin: auto;
+    border-radius: 30px;
+    padding: auto;
+    border: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#pictures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+p{
+    padding-right: 10%;
+    padding-left: 10%;
+} 
+/* .round{
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    background-color:rgb(45, 106, 218);
+    box-shadow: rgb(231, 226, 226) 1px 1px 1px 1px;
+    text-align: center; */
+
+
+#beat{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:rgb(47, 28, 218);
+
+
+}
+input:focus{
+   outline: none; 
+}
+body{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: calc(200);
+}
+#list{
+    background-color:#e4dfe9 ;
+    /* color: rgb(51, 47, 47); */
+}
+li h2{
+    color: orangered;
+    
+}
+#header{
+    color: rgb(81, 84, 85);
+}
+#topwritings{
+    color: white;
+    padding-top: 10%;
+}
+#topform{
+    padding-left: 10%;
+}
+#writing{
+    padding-bottom: 5%;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: rgb(156, 144, 144);
+    padding-top: 3%;
+}
+
+#row{
+    background-color: darkblue;
+    padding: 5% 8%;
+}
+#anchor{
+    text-decoration: none;
+    color: white;
+}
+#first{
+    width: 120px;
+    border-radius: 100%;
+    background-color:white;
+    align-content: center;
+    justify-content: center;
+    box-shadow: rgb(240, 237, 237) 1px 1px 1px 1px;
+    height: 120px;
+}
+#second{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color:rgb(45, 106, 218);
+    /* align-content: center;
+    justify-content: center; */
+    box-shadow: rgb(240, 237, 237) 1px 1px 1px 1px; 
+}
+#third{
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    background-color:white;
+    align-content: center;
+    justify-content: center;
+    box-shadow: rgb(240, 237, 237) 1px 1px 1px 1px;
+}
+
+#fourth{
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    background-color:white;
+    box-shadow: rgb(240, 237, 237) 1px 1px 1px 1px;
+    align-content: center;
+    justify-content: center;
+}
+
+#fifth{
+    width: 120px;
+    border-radius: 120px;
+    background-color:white;
+    align-content: center;
+    justify-content: center;
+    box-shadow: rgb(240, 237, 237) 1px 1px 1px 1px;
+    height: 120px;
+}
+#card1{
+    border: none;
+    text-align: center;
+}
+#card2{
+    border: none;
+    text-align: center;
+}
+#card3{
+    border: none;
+    text-align: center;
+}
+#card4{
+    border: none;
+    text-align: center;
+}
+#card5{
+    border: none;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    #card1,
+    #card2,
+    #card3,
+    #card4,
+    #card5{
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+}
